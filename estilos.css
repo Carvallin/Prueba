@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+  }
+   
+  main {
+    display: block;
+  }
+  
+  .contenedor-principal {
+    display: grid;
+    grid-template-columns: 60% auto;
+  }
+  
+  header,article {
+    border: 2px solid red;
+
+  
+
+  }
+section{
+ border: 2px solid green;
+}  
+.comentario{
+    border: 2px solid lightblue;
+
+}
+
+footer{
+    border: 2px solid darkgreen;
+    
+}
+  .comentarios {
+    /* max-width: 500px; */
+    display: grid;
+    margin: 0 auto;
+    row-gap: 15px; 
+    
+  }
+  
+  .comentario {
+    width: 300px;
+  }
+  
+  .lista-navegacion {
+    list-style-type: none;
+  }
+  
+  .lista-navegacion li {
+    display: inline-block;  
+  }
